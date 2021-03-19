@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 319670042}
   - component: {fileID: 319670041}
   - component: {fileID: 319670043}
+  - component: {fileID: 319670044}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -290,6 +291,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &319670044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319670037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccdda32b47bf04abcbb30707a6d51372, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thurst: 5
+  knockTime: 0.4
 --- !u!1 &432020532
 GameObject:
   m_ObjectHideFlags: 0
@@ -889,7 +904,7 @@ GameObject:
   - component: {fileID: 1098041947}
   m_Layer: 0
   m_Name: Mob2
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -995,7 +1010,7 @@ MonoBehaviour:
   moveSpeed: 1.5
   target: {fileID: 0}
   chaseRadius: 4
-  attackRadius: 2
+  attackRadius: 1
   homePosition: {fileID: 0}
 --- !u!50 &1098041948
 Rigidbody2D:
@@ -1240,7 +1255,7 @@ GameObject:
   - component: {fileID: 1735466361}
   m_Layer: 0
   m_Name: Mob1
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1362,7 +1377,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1735466355}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
@@ -1393,5 +1408,5 @@ MonoBehaviour:
   moveSpeed: 1.5
   target: {fileID: 0}
   chaseRadius: 4
-  attackRadius: 2
+  attackRadius: 1
   homePosition: {fileID: 0}
