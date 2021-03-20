@@ -201,7 +201,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 319670037}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.91, y: 1.04, z: 0}
+  m_LocalPosition: {x: -10.69, y: 1.5, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 1585713082}
@@ -547,8 +547,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.42, y: 1.91, z: 0}
   m_LocalScale: {x: 2.00534, y: 1.9662933, z: 1}
-  m_Children:
-  - {fileID: 903467113}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -881,12 +880,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 903467111}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.326406, y: -0.32, z: 0}
-  m_LocalScale: {x: 1.6954731, y: 1.2714279, z: 1}
+  m_LocalPosition: {x: -30.319998, y: 1.280786, z: 0}
+  m_LocalScale: {x: 3.4, y: 2.5000002, z: 1}
   m_Children:
   - {fileID: 642237106}
-  m_Father: {fileID: 549016478}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1098041943
 GameObject:
@@ -986,7 +985,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1098041943}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.394097, y: 2.7639167, z: 0}
+  m_LocalPosition: {x: 5.93, y: 7.15, z: 0}
   m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1011,7 +1010,7 @@ MonoBehaviour:
   moveSpeed: 1.5
   target: {fileID: 0}
   chaseRadius: 4
-  attackRadius: 1
+  attackRadius: 1.2
   homePosition: {fileID: 0}
   anim: {fileID: 0}
 --- !u!50 &1098041948
@@ -1105,10 +1104,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d481260b248c14dafbfa66ee8243c171, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraChange: {x: 0, y: 25}
-  playerChange: {x: 0, y: 5, z: 0}
+  cameraChange: {x: -19, y: 0}
+  playerChange: {x: -7, y: 0, z: 0}
   needText: 0
-  placeName: 
+  placeName: Entrance to evil lair
   text: {fileID: 0}
   placeText: {fileID: 0}
 --- !u!61 &1251462318
@@ -1121,7 +1120,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.41508484, y: -0.36353683}
@@ -1416,7 +1415,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1735466355}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.837369, y: 0.8400701, z: 0}
+  m_LocalPosition: {x: 6.86, y: 5.09, z: 0}
   m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
