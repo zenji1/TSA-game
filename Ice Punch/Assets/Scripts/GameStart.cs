@@ -6,8 +6,8 @@
      public GameObject mainPlayer;
      // Use this for initialization
      void Start () {
-         waitScreen.SetActive = (true);
-         mainPlayer.SetActive = (false);
+         waitScreen.SetActive (true);
+         mainPlayer.SetActive (false);
      }
  
      void Update (){
@@ -15,8 +15,8 @@
          function Start () {
              while (true) {
                  while (!Input.GetKeyDown(KeyCode.Space)) yield;
-                 waitScreen.SetActive = (false); yield;
-                 mainPlayer.SetActive = (true); yield;
+                 waitScreen.SetActive (false); yield;
+                 mainPlayer.SetActive (true); yield;
             }
         }
     }
