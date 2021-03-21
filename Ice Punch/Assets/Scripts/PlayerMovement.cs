@@ -18,7 +18,9 @@ public class PlayerMovement : MonoBehaviour {
     private Rigidbody2D myRigidbody;
     private Vector3 change;
     private Animator animator;
-
+    public FloatValue currentHealth;
+    public Signal playerHealthSignal;
+    public VectorValue startingPosition;
 
 	// Use this for initialization
 	void Start () {
@@ -27,7 +29,7 @@ public class PlayerMovement : MonoBehaviour {
         myRigidbody = GetComponent<Rigidbody2D>();
         animator.SetFloat("move X", 0);
         animator.SetFloat("move Y", -1);
-
+        transform.position = startingPosition.initialValue;
 	}
 	
 	// Update is called once per frame
@@ -79,9 +81,17 @@ public class PlayerMovement : MonoBehaviour {
         );
     }
 
-    public void Knock(float knockTime)
+    public void Knock(float knockTime, float damage)
     {
-        StartCoroutine(KnockCo(knockTime));
+        currentHealth.RuntimeValue -= damage;
+        playerHealthSignal.Raise();
+        if (currentHealth.RuntimeValue > 0)
+        {
+
+            StartCoroutine(KnockCo(knockTime));
+        }else{
+            this.gameObject.SetActive(false);
+        }
     }
 
     private IEnumerator KnockCo(float knockTime)
