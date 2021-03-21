@@ -365,7 +365,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 319670037}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.39, y: 0.99, z: 0}
+  m_LocalPosition: {x: -9.79, y: 0.27, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 1585713082}
@@ -1181,6 +1181,8 @@ GameObject:
   - component: {fileID: 1098041948}
   - component: {fileID: 1098041949}
   - component: {fileID: 1098041947}
+  - component: {fileID: 1098041951}
+  - component: {fileID: 1098041950}
   m_Layer: 0
   m_Name: Mob2
   m_TagString: enemy
@@ -1265,7 +1267,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1098041943}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.78, y: 3.1, z: 0}
+  m_LocalPosition: {x: 2.8, y: 3.43, z: 0}
   m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1284,9 +1286,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  health: 4
+  health: 2
   enemyName: Mob2A
-  baseAttack: 0
+  baseAttack: 2
   moveSpeed: 1.5
   target: {fileID: 0}
   chaseRadius: 4
@@ -1339,6 +1341,46 @@ BoxCollider2D:
   m_AutoTiling: 0
   serializedVersion: 2
   m_Size: {x: 3.8228436, y: 2.86944}
+  m_EdgeRadius: 0
+--- !u!114 &1098041950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098041943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccdda32b47bf04abcbb30707a6d51372, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thrust: 2
+  knockTime: 0.2
+--- !u!61 &1098041951
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098041943}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.05960083, y: -0.3576107}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.36, y: 6.57}
+    newSize: {x: 5.36, y: 6.57}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.0487595, y: 4.662739}
   m_EdgeRadius: 0
 --- !u!1001 &1576713901
 PrefabInstance:
@@ -1405,32 +1447,32 @@ PrefabInstance:
     - target: {fileID: 4303832184416370265, guid: 0e5e9f0837e234cb48563e6a0e47cf33,
         type: 3}
       propertyPath: cameraChange.x
-      value: 19
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 4303832184416370265, guid: 0e5e9f0837e234cb48563e6a0e47cf33,
         type: 3}
       propertyPath: playerChange.x
-      value: 7
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4303832184416370266, guid: 0e5e9f0837e234cb48563e6a0e47cf33,
         type: 3}
       propertyPath: m_Offset.x
-      value: -4.6217966
+      value: -7.039546
       objectReference: {fileID: 0}
     - target: {fileID: 4303832184416370266, guid: 0e5e9f0837e234cb48563e6a0e47cf33,
         type: 3}
       propertyPath: m_Size.x
-      value: 2.0245132
+      value: 2.023243
       objectReference: {fileID: 0}
     - target: {fileID: 4303832184416370266, guid: 0e5e9f0837e234cb48563e6a0e47cf33,
         type: 3}
       propertyPath: m_Offset.y
-      value: 1.0788856
+      value: 0.8340812
       objectReference: {fileID: 0}
     - target: {fileID: 4303832184416370266, guid: 0e5e9f0837e234cb48563e6a0e47cf33,
         type: 3}
       propertyPath: m_Size.y
-      value: 10.253448
+      value: 9.763839
       objectReference: {fileID: 0}
     - target: {fileID: 4303832184416370271, guid: 0e5e9f0837e234cb48563e6a0e47cf33,
         type: 3}
@@ -1824,7 +1866,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1735466355}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.43, y: 1.22, z: 0}
+  m_LocalPosition: {x: 0.99, y: 4.48, z: 0}
   m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1892,7 +1934,7 @@ MonoBehaviour:
   currentState: 0
   health: 2
   enemyName: Mob1A
-  baseAttack: 0
+  baseAttack: 1
   moveSpeed: 1.5
   target: {fileID: 0}
   chaseRadius: 4
@@ -2156,6 +2198,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4303832184416370265, guid: 0e5e9f0837e234cb48563e6a0e47cf33,
+        type: 3}
+      propertyPath: cameraChange.x
+      value: -25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4303832184416370265, guid: 0e5e9f0837e234cb48563e6a0e47cf33,
+        type: 3}
+      propertyPath: playerChange.x
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 4303832184416370271, guid: 0e5e9f0837e234cb48563e6a0e47cf33,
         type: 3}

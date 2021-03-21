@@ -12,10 +12,16 @@ public enum EnemyState{
 public class Enemy : MonoBehaviour {
 
     public EnemyState currentState;
-    public int health;
+    private FloatValue maxHealth;
+    public float health;
     public string enemyName;
     public int baseAttack;
     public float moveSpeed;
+
+    private void Start()
+    {
+        health = maxHealth.initialValue;
+    }
 
     public void Knock(Rigidbody2D myRigidbody, float knockTime)
     {
