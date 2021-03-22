@@ -157,7 +157,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 2
-  knockTime: 0.2
+  knockTime: 0.5
   damage: 0
 --- !u!61 &43001391
 BoxCollider2D:
@@ -333,7 +333,7 @@ Transform:
   m_GameObject: {fileID: 43001389}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -216.93, y: -0.94, z: 0}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 1}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 15
@@ -538,7 +538,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 2
-  knockTime: 0.2
+  knockTime: 0.5
   damage: 0
 --- !u!61 &167189921
 BoxCollider2D:
@@ -714,7 +714,7 @@ Transform:
   m_GameObject: {fileID: 167189919}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5.31, y: 0.04, z: 0}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 1}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 25
@@ -829,7 +829,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 2
-  knockTime: 0.2
+  knockTime: 0.5
   damage: 0
 --- !u!61 &259121782
 BoxCollider2D:
@@ -1005,7 +1005,7 @@ Transform:
   m_GameObject: {fileID: 259121780}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -235.42, y: -2.43, z: 0}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 1}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 14
@@ -1164,8 +1164,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 319670037}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -253.29, y: -1.08, z: 0}
-  m_LocalScale: {x: 0.33, y: 0.33, z: 0.5}
+  m_LocalPosition: {x: -205.75, y: 0.47, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 1585713082}
   - {fileID: 1699521497}
@@ -1208,7 +1208,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  speed: 6
+  speed: 5
   currentHealth: {fileID: 11400000, guid: 7daa7031fc7194d5b8a7ab432557d981, type: 2}
   playerHealthSignal: {fileID: 11400000, guid: 6e39d3246f15848f4893466081c2c8e6, type: 2}
   startingPosition: {fileID: 11400000, guid: 455df8f9246594af9bf16189402f0db2, type: 2}
@@ -1953,7 +1953,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 2
-  knockTime: 0.2
+  knockTime: 0.5
   damage: 0
 --- !u!61 &540152749
 BoxCollider2D:
@@ -2129,7 +2129,7 @@ Transform:
   m_GameObject: {fileID: 540152747}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.1, y: -2.95, z: 0}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 1}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 28
@@ -2819,7 +2819,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 2
-  knockTime: 0.2
+  knockTime: 0.5
   damage: 0
 --- !u!61 &714755794
 BoxCollider2D:
@@ -2995,7 +2995,7 @@ Transform:
   m_GameObject: {fileID: 714755792}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -192.62, y: 1.6, z: 0}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 1}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 17
@@ -3110,7 +3110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 2
-  knockTime: 0.2
+  knockTime: 0.5
   damage: 0
 --- !u!61 &807195001
 BoxCollider2D:
@@ -3286,7 +3286,7 @@ Transform:
   m_GameObject: {fileID: 807194999}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -106.48, y: 0.02, z: 0}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 1}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 21
@@ -3756,7 +3756,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 2
-  knockTime: 0.2
+  knockTime: 0.5
   damage: 0
 --- !u!61 &1076700449
 BoxCollider2D:
@@ -3932,7 +3932,7 @@ Transform:
   m_GameObject: {fileID: 1076700447}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -28.39, y: -2.22, z: 0}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 1}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 26
@@ -4038,7 +4038,7 @@ Transform:
   m_GameObject: {fileID: 1098041943}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -143.47, y: -0.17, z: 0}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 1}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 19
@@ -4126,7 +4126,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 2
-  knockTime: 0.2
+  knockTime: 0.5
   damage: 0
 --- !u!61 &1098041951
 BoxCollider2D:
@@ -4303,12 +4303,12 @@ PrefabInstance:
     - target: {fileID: 4303832184416370266, guid: 0e5e9f0837e234cb48563e6a0e47cf33,
         type: 3}
       propertyPath: m_Offset.x
-      value: -192.72377
+      value: -192.91843
       objectReference: {fileID: 0}
     - target: {fileID: 4303832184416370266, guid: 0e5e9f0837e234cb48563e6a0e47cf33,
         type: 3}
       propertyPath: m_Size.x
-      value: 0.7486267
+      value: 0.35932922
       objectReference: {fileID: 0}
     - target: {fileID: 4303832184416370266, guid: 0e5e9f0837e234cb48563e6a0e47cf33,
         type: 3}
@@ -4363,7 +4363,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 2
-  knockTime: 0.2
+  knockTime: 0.5
   damage: 0
 --- !u!61 &1253370004
 BoxCollider2D:
@@ -4539,7 +4539,7 @@ Transform:
   m_GameObject: {fileID: 1253370002}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -113.72, y: -2.01, z: 0}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 1}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 20
@@ -4926,7 +4926,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 2
-  knockTime: 0.2
+  knockTime: 0.5
   damage: 0
 --- !u!61 &1335762253
 BoxCollider2D:
@@ -5102,7 +5102,7 @@ Transform:
   m_GameObject: {fileID: 1335762251}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.1, y: 4.15, z: 0}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 1}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 27
@@ -5182,8 +5182,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1350666372}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.81, y: 4.49, z: 0}
-  m_LocalScale: {x: 0.33, y: 0.33, z: 1}
+  m_LocalPosition: {x: 5.81, y: 4.37, z: 0}
+  m_LocalScale: {x: 0.45, y: 0.45, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 29
@@ -5260,6 +5260,16 @@ PrefabInstance:
       propertyPath: playerChange.x
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 4303832184416370265, guid: 0e5e9f0837e234cb48563e6a0e47cf33,
+        type: 3}
+      propertyPath: playerChange.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4303832184416370265, guid: 0e5e9f0837e234cb48563e6a0e47cf33,
+        type: 3}
+      propertyPath: cameraChange.y
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 4303832184416370266, guid: 0e5e9f0837e234cb48563e6a0e47cf33,
         type: 3}
       propertyPath: m_Offset.x
@@ -5323,7 +5333,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 2
-  knockTime: 0.2
+  knockTime: 0.5
   damage: 0
 --- !u!61 &1522970578
 BoxCollider2D:
@@ -5499,7 +5509,7 @@ Transform:
   m_GameObject: {fileID: 1522970576}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -28.82, y: 2.82, z: 0}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 1}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 24
@@ -5644,7 +5654,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 2
-  knockTime: 0.2
+  knockTime: 0.5
   damage: 0
 --- !u!61 &1578715340
 BoxCollider2D:
@@ -5820,7 +5830,7 @@ Transform:
   m_GameObject: {fileID: 1578715338}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -166.67, y: 1.3, z: 0}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 1}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 18
@@ -6473,7 +6483,7 @@ Transform:
   m_GameObject: {fileID: 1735466355}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -244.3, y: -0.94, z: 0}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 1}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 13
@@ -6587,7 +6597,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 2
-  knockTime: 0.2
+  knockTime: 0.5
   damage: 0
 --- !u!1 &1764134203
 GameObject:
@@ -6937,7 +6947,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 2
-  knockTime: 0.2
+  knockTime: 0.5
   damage: 0
 --- !u!61 &1933600093
 BoxCollider2D:
@@ -7113,7 +7123,7 @@ Transform:
   m_GameObject: {fileID: 1933600091}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -202.59, y: -0.94, z: 0}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 1}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 16
@@ -7352,7 +7362,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 2
-  knockTime: 0.2
+  knockTime: 0.5
   damage: 0
 --- !u!61 &2041082576
 BoxCollider2D:
@@ -7528,7 +7538,7 @@ Transform:
   m_GameObject: {fileID: 2041082574}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -83.62, y: 0.02, z: 0}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 1}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 22
@@ -7603,7 +7613,7 @@ PrefabInstance:
     - target: {fileID: 4303832184416370265, guid: 0e5e9f0837e234cb48563e6a0e47cf33,
         type: 3}
       propertyPath: playerChange.x
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4303832184416370266, guid: 0e5e9f0837e234cb48563e6a0e47cf33,
         type: 3}
@@ -7668,7 +7678,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 2
-  knockTime: 0.2
+  knockTime: 0.5
   damage: 0
 --- !u!61 &2093097719
 BoxCollider2D:
@@ -7844,7 +7854,7 @@ Transform:
   m_GameObject: {fileID: 2093097717}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -91.68, y: -4.45, z: 0}
-  m_LocalScale: {x: 0.15, y: 0.15, z: 1}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 23
